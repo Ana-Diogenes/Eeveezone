@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+header li {
+    margin-left: 5%;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+header {
+    height: 60px;
+    box-sizing: content-box;
+    background-color: #0F6E8D;
+    padding-right: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#inicio {
+    padding-left: 3%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#app {
+    display: flex;
+
+}
+
+#rodape1 {
+    min-width: 100px;
+    padding: 30px;
+    flex-grow: 1;
+    height: 120px;
+    background-color: #0F6E8D;
+    color: #ffffff;
+}
+
+#rodape2 {
+    min-width: 100px;
+    height: 120px;
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #84D4F2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#rodape3 {
+
+    min-width: 100px;
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #0F6E8D;
+    color: #ffffff;
+    height: 120px;
+
+}
+
+#rodape1,
+#rodape3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rodape2 img {
+    width: 60px;
+    height: 60px;
+}
+
+#rodapefinal {
+    background-color: #303030;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer ul {
+    margin-left: 30px;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    flex-grow: 2;
+    background-color: #F3DC9D;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vaporeon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+}
+
+.icons img,
+.topo img {
+
+    border-radius: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.imagens img {
+    width: 40%;
+
+}
+
+.icons {
+    min-width: 400px;
+    width: 30vw;
+}
+
+.imagens {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 80vh;
+    gap: 20px;
+}
+
+.icons h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #0F6E8D;
+}
+
+.card {
+    padding: 20px 30px 20px 30px;
+    width: 50vw;
+    background-color: #84D4F2;
+    border-style: solid;
+    border-radius: 80px;
+    border-width: 20px;
+    border-color: #0F6E8D;
+
+    width: 50vw;
+}
+
+.card img {
+    width: 30%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #0F6E8D;
+    border-radius: 50px;
+    color: #F3DC9D;
+}
+
+.topo {
+    display: flex;
+}
+
+.input1,
+.input2,
+.input3 {
+    width: 100%;
+}
+
+#Idade {
+    width: 90px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+label {
+    font-size: 1.5rem;
+    color: #0F6E8D;
+    font-weight: bold;
+}
+
+.inputs input {
+    background-color: #84D4F2;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: #0F6E8D;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    text-align: center;
+    width: 120px;
+    color: #303030;
+}
+
+.info_pessoais h2 {
+    color: #0F6E8D;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.time select {
+    background-color: #F3DC9D;
+    color: #0F6E8D;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 8px;
+    border-color: #0F6E8D;
+    font-size: 1rem;
+}
+
+.time {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 1030px) {
+    .icons {
+        order: 1;
+        flex-basis: 80%;
+    }
+
+    .imagens img {
+        width: 20%;
+    }
+
+    .card {
+        flex-basis: 80%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .icons {
+        margin-top: 30px;
+    }
+
+    .imagens {
+        height: 80%;
+    }
+
+    .vaporeon {
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card img {
+        width: 30vw;
+        height: 30vw;
+        align-self: center;
+    }
+
+    .time select {
+        width: 100%;
+    }
+
+    h1 {
+        border-radius: 25px;
+    }
+
+    #app {
+        flex-direction: column;
+    }
+
+    #rodape2 {
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px) {
+    header li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 380px) {
+    .topo {
+        display: block;
+    }
+
+    .topo img {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .icons {
+        width: 70vw;
+        min-width: 50vw;
+    }
+}

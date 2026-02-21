@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+header li {
+    margin-left: 5%;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+header {
+    height: 60px;
+    box-sizing: content-box;
+    background-color: #B99600;
+    padding-right: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#inicio {
+    padding-left: 3%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#app {
+    display: flex;
+
+}
+
+#rodape1 {
+    min-width: 100px;
+    padding: 30px;
+    flex-grow: 1;
+    height: 120px;
+    background-color: #B99600;
+    color: #ffffff;
+}
+
+#rodape2 {
+    min-width: 100px;
+    height: 120px;
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #F1D934;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#rodape3 {
+
+    min-width: 100px;
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #B99600;
+    color: #ffffff;
+    height: 120px;
+
+}
+
+#rodape1,
+#rodape3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rodape2 img {
+    width: 60px;
+    height: 60px;
+}
+
+#rodapefinal {
+    background-color: #303030;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer ul {
+    margin-left: 30px;
+}
+
+main {
+    background-color: #393843;
+    flex-grow: 2;
+
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+#primeiro_jogo {
+    margin-bottom: 0;
+}
+
+h2,h1 {
+    color: #F1D934;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+#alinhador {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#titulo-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0 40px;
+}
+
+#umbreon {
+    height: 100px;
+}
+
+.red-principal {
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.carrossel {
+    position: relative;
+    width: 620px;
+    height: 348px;
+    overflow: hidden;
+    background-color: #393843;
+    border: 2px solid #B99600;
+}
+
+.gameplay-red {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.gameplay-red.ativo {
+    display: block;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    background: #B99600;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn.prev {
+    left: 10px;
+    z-index: 100;
+}
+
+.btn.next {
+    right: 10px;
+}
+
+main ul,
+footer ul {
+    margin-left: 30px;
+}
+
+.texto-lateral {
+    width: 270px;
+    padding: 15px;
+    border: 2px solid #B99600;
+    background-color: #393843;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.conteudo-red {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.capas-red {
+    width: 250px;
+    border: 12px solid #B99600;
+}
+
+.descricao-red {
+    color: #ffffff;
+    max-width: 70%;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    #app {
+        flex-direction: column;
+    }
+
+    h2, h1 {
+        font-size: 45px;
+    }
+
+    #titulo-imagem {
+        gap: 10px;
+    }
+
+    .red-principal {
+        flex-direction: column;
+    }
+
+    .carrossel {
+        width: 90vw;
+        height: calc(90vw * 9 / 16);
+    }
+
+    .texto-lateral {
+        width: 90vw;
+        font-size: 15px;
+    }
+
+    .conteudo-red {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descricao-red {
+        max-width: 90vw;
+        font-size: 16px;
+    }
+
+    .capas-red {
+        width: 200px;
+        border-width: 8px;
+    }
+
+    .btn {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    #rodape2 {
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px) {
+    header li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h2,h1 {
+        font-size: 32px;
+    }
+
+    #titulo-imagem {
+        margin-top: 0;
+    }
+
+    .carrossel {
+        height: calc(90vw * 3 / 4);
+    }
+
+    .texto-lateral {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .descricao-red {
+        font-size: 14px;
+    }
+
+    #umbreon {
+        height: 60px;
+    }
+}

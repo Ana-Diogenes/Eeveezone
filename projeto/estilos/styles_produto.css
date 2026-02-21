@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+header li {
+    margin-left: 5%;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+header {
+    height: 60px;
+    box-sizing: content-box;
+    align-content: center;
+    background-color: #CDAC4A;
+    padding-right: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#inicio {
+    padding-left: 3%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#app {
+    display: flex;
+
+}
+
+#rodape1 {
+    min-width: 100px;
+    padding: 30px;
+    flex-grow: 1;
+    height: 120px;
+    background-color: #CDAC4A;
+    color: #ffffff;
+}
+
+#rodape2 {
+    min-width: 100px;
+    height: 120px;
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #FFDE52;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#rodape3 {
+
+    min-width: 100px;
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #CDAC4A;
+    color: #ffffff;
+    height: 120px;
+
+}
+
+#rodape1,
+#rodape3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rodape2 img {
+    width: 60px;
+    height: 60px;
+}
+
+#rodapefinal {
+    background-color: #303030;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer ul {
+    margin-left: 30px;
+}
+
+.caminho {
+    font-size: 20px;
+    margin: 50px;
+    color: #FFDE52;
+    font-weight: bold;
+}
+
+main {
+    flex-grow: 2;
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px auto 50px;
+    display: flex;
+    gap: 20px;
+}
+h1{
+    font-size: 25px;
+}
+
+#produto-img {
+    position: relative;
+    width: 50%;
+    border: 1px solid #CDAC4A;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#produto-img .produto {
+    width: 100%;
+}
+
+#produto-img .logo {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 110px;
+    height: auto;
+}
+
+#informacoes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px;
+}
+
+#informacoes p {
+    color: #836A29;
+}
+
+.preco {
+    font-size: 25px;
+    color: black;
+}
+
+#informacoes input {
+    border-radius: 8px;
+    text-align: center;
+    height: 20px;
+    width: 45px;
+    font-size: 14px;
+}
+
+#informacoes button {
+    background-color: #FFDE52;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+#informacoes div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#informacoes label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@media (max-width: 425px) {
+    header li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .caminho {
+        font-size: 15px;
+        margin: 20px 10px;
+    }
+
+    #produto-img {
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    #informacoes {
+        width: 90%;
+        margin: auto;
+        gap: 15px;
+    }
+
+    #informacoes button {
+        width: 100%;
+    }
+
+    #app {
+        flex-direction: column;
+    }
+
+    #rodape2 {
+        align-items: center;
+    }
+}

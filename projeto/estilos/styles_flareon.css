@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+header li {
+    margin-left: 5%;
+    list-style: none;
+    font-size: 20px;
+}
+
+header {
+    height: 60px;
+    box-sizing: content-box;
+    align-content: center;
+    background-color: #B7550D;
+    padding-right: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#inicio {
+    padding-left: 3%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#app {
+    display: flex;
+
+}
+
+#rodape1 {
+    min-width: 100px;
+    padding: 30px;
+    flex-grow: 1;
+    height: 120px;
+    background-color: #B7550D;
+    color: #ffffff;
+}
+
+#rodape2 {
+    min-width: 100px;
+    height: 120px;
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #FFC971;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#rodape3 {
+
+    min-width: 100px;
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #B7550D;
+    color: #ffffff;
+    height: 120px;
+
+}
+
+#rodape1,
+#rodape3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#rodape2 img {
+    width: 60px;
+    height: 60px;
+}
+
+#rodapefinal {
+    background-color: #303030;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer ul {
+    margin-left: 30px;
+}
+
+
+main {
+    background-image: url('../fotos eeveezone/kanto/Kanto_claro.png');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+    flex-grow: 2;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+.conteudo-principal {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.coluna-esquerda {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.coluna-direita {
+    flex: 1;
+    min-width: 300px;
+}
+
+.cabecalho {
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+    justify-content: center;
+}
+
+#nome_regiao {
+    font-size: 6.25rem;
+    font-weight: bold;
+    color: #B7550d;
+    line-height: 1;
+    text-align: center;
+}
+
+.subtitulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#subtitulo1 {
+    font-size: 1.75rem;
+    color: #B7550D;
+}
+
+#subtitulo2 {
+    font-size: 1.2rem;
+    color: #B7550D;
+}
+
+.descricao {
+    background-color: #FFC971;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+#iniciais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.fotos-iniciais {
+    width: 150px;
+    display: block;
+}
+
+#container-info {
+    background-color: #B7550D;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    min-height: 500px;
+}
+
+#descricao_arte {
+    color: #FFC971;
+    text-align: center;
+}
+
+.informacoes {
+    background-color: #FFC971;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#transicao {
+    background-color: #B7550D;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#texto-transicao {
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFC971;
+}
+
+#flareon {
+    width: 250px;
+}
+
+#treinador1 {
+    width: 100%;
+    height: 750px;
+    background-color: #FFC971;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+#treinador2 {
+    width: 100%;
+    background-color: #B7550D;
+    height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #af4a01;
+    margin-right: 20px;
+}
+
+#treinador2 h2,
+#treinador2 p {
+    color: #FFC971;
+}
+
+.nome_treinador p {
+    font-weight: bold;
+}
+
+.nome_treinador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foto-treinador {
+    height: 650px;
+    width: auto;
+    max-width: 100%;
+}
+
+#descricao-t1 {
+    margin-right: 2%;
+    max-width: 900px;
+    text-align: justify;
+}
+
+#descricao-t2 {
+    margin-left: 2%;
+    max-width: 900px;
+    color: #FFC971;
+    text-align: justify;
+}
+
+p {
+    color: #af4a01;
+}
+
+footer p,
+footer h3,
+footer li {
+    color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .conteudo-principal {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .coluna-direita {
+        min-width: 100%;
+    }
+
+    #nome_regiao {
+        font-size: 5rem;
+    }
+
+    #iniciais {
+        gap: 40px;
+    }
+
+    .fotos-iniciais {
+        width: 120px;
+    }
+
+    #container-info {
+        min-height: 400px;
+    }
+
+    #treinador1,
+    #treinador2 {
+        height: 600px;
+    }
+
+    .foto-treinador {
+        height: 500px;
+    }
+
+    #descricao-t1,
+    #descricao-t2 {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo-principal {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    #nome_regiao {
+        font-size: 4rem;
+    }
+
+    #subtitulo1 {
+        font-size: 1.5rem;
+    }
+
+    #subtitulo2 {
+        font-size: 1rem;
+    }
+
+    .descricao {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    #iniciais {
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .fotos-iniciais {
+        width: 100px;
+    }
+
+    #container-info {
+        padding: 20px;
+        gap: 15px;
+        min-height: 350px;
+        border-radius: 30px;
+    }
+
+    .informacoes {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    #transicao {
+        height: 150px;
+    }
+
+    #texto-transicao,
+    h2 {
+        font-size: 40px;
+    }
+
+    #flareon {
+        width: 180px;
+    }
+
+    #treinador1,
+    #treinador2 {
+        flex-direction: column;
+        height: auto;
+        min-height: 500px;
+        padding: 40px 20px;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    #treinador2 {
+        flex-direction: column-reverse;
+    }
+
+    .foto-treinador {
+        height: 400px;
+    }
+
+    #descricao-t1,
+    #descricao-t2 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #app {
+        flex-direction: column;
+    }
+
+    #rodape2 {
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px) {
+    header li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #nome_regiao {
+        font-size: 3rem;
+    }
+
+    #subtitulo1 {
+        font-size: 1.25rem;
+    }
+
+    #subtitulo2 {
+        font-size: 0.9rem;
+    }
+
+    .descricao {
+        padding: 15px;
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    #iniciais {
+        gap: 15px;
+        justify-content: space-around;
+    }
+
+    .fotos-iniciais {
+        width: 80px;
+    }
+
+    #container-info {
+        padding: 15px;
+        border-radius: 20px;
+        min-height: 300px;
+    }
+
+    .informacoes {
+        padding: 15px;
+        font-size: 0.95rem;
+        border-radius: 15px;
+    }
+
+    #transicao {
+        height: 120px;
+    }
+
+    #texto-transicao,
+    h2 {
+        font-size: 30px;
+    }
+
+    #flareon {
+        width: 100px;
+    }
+
+    .foto-treinador {
+        height: 300px;
+    }
+}
+
+
+
+
+@media (min-width: 1025px) {
+    #treinador1 .foto-treinador {
+        position: relative;
+        bottom: -50px;
+    }
+
+    #treinador2 .foto-treinador {
+        position: relative;
+        top: -50px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #treinador1 .foto-treinador {
+        bottom: -80px;
+        height: 700px;
+    }
+
+    #treinador2 .foto-treinador {
+        top: -80px;
+        height: 700px;
+    }
+}

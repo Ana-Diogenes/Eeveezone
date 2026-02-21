@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EeveeZone</title>
+    <link rel="stylesheet" href='styles/styles_card.css'>
+    <link rel="website icon" type="png" href="fotos eeveezone/Eevee_icon_site.png">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="inicio"><a href="index.html">Início</a></li>
+                <li><a href="loja.html">PokeCenter</a></li>
+                <li><a href="card_treinador.html">Card</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="icons">
+            <h2>Icons</h2>
+            <div class="imagens">
+                <img src="fotos eeveezone/3_card_treinador/icon_bulbasaur.jpg" alt="icon_bulbasaur"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_charmander.jpg" alt="icon_charmander"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_eevee.jpg" alt="icon_eevee"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_espeon.jpg" alt="icon_espeon"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_flareon.jpg" alt="icon_flareon"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_gengar.jpg" alt="icon_gengar"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_glaceon.jpg" alt="icon_glaceon"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_jolteon.jpg" alt="icon_jolteon"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_leafeon.jpg" alt="icon_leafeon"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_mimikyu.jpg" alt="icon_mimikyu"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_pikachu.jpg" alt="icon_pikachu"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_silveon.jpg" alt="icon_silveon"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_snorlax.jpg" alt="icon_snorlax"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_squirtle.jpg" alt="icon_squirtle"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_umbreon.jpg" alt="icon_umbreon"
+                    onclick="trocarIcon(this.src)">
+                <img src="fotos eeveezone/3_card_treinador/icon_vaporeon.jpg" alt="icon_vaporeon"
+                    onclick="trocarIcon(this.src)">
+            </div>
+        </section>
+        <section class="card">
+            <h1>Card Treinador</h1>
+            <div class="info_pessoais">
+                <div class="topo">
+                    <img src="fotos eeveezone/3_card_treinador/icon_vaporeon.jpg" alt="icon_selecionado"
+                        id="imagemCard">
+                    <div class="inputs">
+                        <div class="input1"">
+                            <label for=" Nome">Nome:</label>
+                            <input type="text" id="Nome" placeholder="ex.: Irlan">
+                        </div>
+                        <div class="input2">
+                            <label for="Idade">Idade:</label>
+                            <input type="number" id="Idade" max="100" min="1" placeholder="ex.: 22">
+                        </div>
+                        <div class="input3">
+                            <label for="Pokemon_favorito">Pokemon favorito:</label>
+                            <input type="text" id="Pokemon_favorito" placeholder="ex.: Eevee">
+                        </div>
+
+                    </div>
+                </div>
+                <h2>Monte seu time ⇩</h2>
+                <div class="time">
+                    <select name="" id="">
+                        <option value="">Escolha o Pokémon</option>
+                        <option value="Bulbasaur">Bulbasaur</option>
+                        <option value="Ivysaur">Ivysaur</option>
+                        <option value="Venusaur">Venusaur</option>
+                        <option value="Charmander">Charmander</option>
+                        <option value="Charmeleon">Charmeleon</option>
+                        <option value="Charizard">Charizard</option>
+                        <option value="Squirtle">Squirtle</option>
+                        <option value="Wartortle">Wartortle</option>
+                        <option value="Blastoise">Blastoise</option>
+                        <option value="Caterpie">Caterpie</option>
+                        <option value="Metapod">Metapod</option>
+                        <option value="Butterfree">Butterfree</option>
+                        <option value="Weedle">Weedle</option>
+                        <option value="Kakuna">Kakuna</option>
+                        <option value="Beedrill">Beedrill</option>
+                        <option value="Pidgey">Pidgey</option>
+                        <option value="Pidgeotto">Pidgeotto</option>
+                        <option value="Pidgeot">Pidgeot</option>
+                        <option value="Rattata">Rattata</option>
+                        <option value="Raticate">Raticate</option>
+                        <option value="Spearow">Spearow</option>
+                        <option value="Fearow">Fearow</option>
+                        <option value="Ekans">Ekans</option>
+                        <option value="Arbok">Arbok</option>
+                        <option value="Pikachu">Pikachu</option>
+                        <option value="Raichu">Raichu</option>
+                        <option value="Sandshrew">Sandshrew</option>
+                        <option value="Sandslash">Sandslash</option>
+                        <option value="Nidoran♀">Nidoran♀</option>
+                        <option value="Nidorina">Nidorina</option>
+                        <option value="Nidoqueen">Nidoqueen</option>
+                        <option value="Nidoran♂">Nidoran♂</option>
+                        <option value="Nidorino">Nidorino</option>
+                        <option value="Nidoking">Nidoking</option>
+                        <option value="Clefairy">Clefairy</option>
+                        <option value="Clefable">Clefable</option>
+                        <option value="Vulpix">Vulpix</option>
+                        <option value="Ninetales">Ninetales</option>
+                        <option value="Jigglypuff">Jigglypuff</option>
+                        <option value="Wigglytuff">Wigglytuff</option>
+                        <option value="Zubat">Zubat</option>
+                        <option value="Golbat">Golbat</option>
+                        <option value="Oddish">Oddish</option>
+                        <option value="Gloom">Gloom</option>
+                        <option value="Vileplume">Vileplume</option>
+                        <option value="Paras">Paras</option>
+                        <option value="Parasect">Parasect</option>
+                        <option value="Venonat">Venonat</option>
+                        <option value="Venomoth">Venomoth</option>
+                        <option value="Diglett">Diglett</option>
+                        <option value="Dugtrio">Dugtrio</option>
+                        <option value="Meowth">Meowth</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Psyduck">Psyduck</option>
+                        <option value="Golduck">Golduck</option>
+                        <option value="Mankey">Mankey</option>
+                        <option value="Primeape">Primeape</option>
+                        <option value="Growlithe">Growlithe</option>
+                        <option value="Arcanine">Arcanine</option>
+                        <option value="Poliwag">Poliwag</option>
+                        <option value="Poliwhirl">Poliwhirl</option>
+                        <option value="Poliwrath">Poliwrath</option>
+                        <option value="Abra">Abra</option>
+                        <option value="Kadabra">Kadabra</option>
+                        <option value="Alakazam">Alakazam</option>
+                        <option value="Machop">Machop</option>
+                        <option value="Machoke">Machoke</option>
+                        <option value="Machamp">Machamp</option>
+                        <option value="Bellsprout">Bellsprout</option>
+                        <option value="Weepinbell">Weepinbell</option>
+                        <option value="Victreebel">Victreebel</option>
+                        <option value="Tentacool">Tentacool</option>
+                        <option value="Tentacruel">Tentacruel</option>
+                        <option value="Geodude">Geodude</option>
+                        <option value="Graveler">Graveler</option>
+                        <option value="Golem">Golem</option>
+                        <option value="Ponyta">Ponyta</option>
+                        <option value="Rapidash">Rapidash</option>
+                        <option value="Slowpoke">Slowpoke</option>
+                        <option value="Slowbro">Slowbro</option>
+                        <option value="Magnemite">Magnemite</option>
+                        <option value="Magneton">Magneton</option>
+                        <option value="Farfetch'd">Farfetch'd</option>
+                        <option value="Doduo">Doduo</option>
+                        <option value="Dodrio">Dodrio</option>
+                        <option value="Seel">Seel</option>
+                        <option value="Dewgong">Dewgong</option>
+                        <option value="Grimer">Grimer</option>
+                        <option value="Muk">Muk</option>
+                        <option value="Shellder">Shellder</option>
+                        <option value="Cloyster">Cloyster</option>
+                        <option value="Gastly">Gastly</option>
+                        <option value="Haunter">Haunter</option>
+                        <option value="Gengar">Gengar</option>
+                        <option value="Onix">Onix</option>
+                        <option value="Drowzee">Drowzee</option>
+                        <option value="Hypno">Hypno</option>
+                        <option value="Krabby">Krabby</option>
+                        <option value="Kingler">Kingler</option>
+                        <option value="Voltorb">Voltorb</option>
+                        <option value="Electrode">Electrode</option>
+                        <option value="Exeggcute">Exeggcute</option>
+                        <option value="Exeggutor">Exeggutor</option>
+                        <option value="Cubone">Cubone</option>
+                        <option value="Marowak">Marowak</option>
+                        <option value="Hitmonlee">Hitmonlee</option>
+                        <option value="Hitmonchan">Hitmonchan</option>
+                        <option value="Lickitung">Lickitung</option>
+                        <option value="Koffing">Koffing</option>
+                        <option value="Weezing">Weezing</option>
+                        <option value="Rhyhorn">Rhyhorn</option>
+                        <option value="Rhydon">Rhydon</option>
+                        <option value="Chansey">Chansey</option>
+                        <option value="Tangela">Tangela</option>
+                        <option value="Kangaskhan">Kangaskhan</option>
+                        <option value="Horsea">Horsea</option>
+                        <option value="Seadra">Seadra</option>
+                        <option value="Goldeen">Goldeen</option>
+                        <option value="Seaking">Seaking</option>
+                        <option value="Staryu">Staryu</option>
+                        <option value="Starmie">Starmie</option>
+                        <option value="Mr. Mime">Mr. Mime</option>
+                        <option value="Scyther">Scyther</option>
+                        <option value="Jynx">Jynx</option>
+                        <option value="Electabuzz">Electabuzz</option>
+                        <option value="Magmar">Magmar</option>
+                        <option value="Pinsir">Pinsir</option>
+                        <option value="Tauros">Tauros</option>
+                        <option value="Magikarp">Magikarp</option>
+                        <option value="Gyarados">Gyarados</option>
+                        <option value="Lapras">Lapras</option>
+                        <option value="Ditto">Ditto</option>
+                        <option value="Eevee">Eevee</option>
+                        <option value="Vaporeon">Vaporeon</option>
+                        <option value="Jolteon">Jolteon</option>
+                        <option value="Flareon">Flareon</option>
+                        <option value="Porygon">Porygon</option>
+                        <option value="Omanyte">Omanyte</option>
+                        <option value="Omastar">Omastar</option>
+                        <option value="Kabuto">Kabuto</option>
+                        <option value="Kabutops">Kabutops</option>
+                        <option value="Aerodactyl">Aerodactyl</option>
+                        <option value="Snorlax">Snorlax</option>
+                        <option value="Articuno">Articuno</option>
+                        <option value="Zapdos">Zapdos</option>
+                        <option value="Moltres">Moltres</option>
+                        <option value="Dratini">Dratini</option>
+                        <option value="Dragonair">Dragonair</option>
+                        <option value="Dragonite">Dragonite</option>
+                        <option value="Mewtwo">Mewtwo</option>
+                        <option value="Mew">Mew</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Escolha o Pokémon</option>
+                        <option value="Bulbasaur">Bulbasaur</option>
+                        <option value="Ivysaur">Ivysaur</option>
+                        <option value="Venusaur">Venusaur</option>
+                        <option value="Charmander">Charmander</option>
+                        <option value="Charmeleon">Charmeleon</option>
+                        <option value="Charizard">Charizard</option>
+                        <option value="Squirtle">Squirtle</option>
+                        <option value="Wartortle">Wartortle</option>
+                        <option value="Blastoise">Blastoise</option>
+                        <option value="Caterpie">Caterpie</option>
+                        <option value="Metapod">Metapod</option>
+                        <option value="Butterfree">Butterfree</option>
+                        <option value="Weedle">Weedle</option>
+                        <option value="Kakuna">Kakuna</option>
+                        <option value="Beedrill">Beedrill</option>
+                        <option value="Pidgey">Pidgey</option>
+                        <option value="Pidgeotto">Pidgeotto</option>
+                        <option value="Pidgeot">Pidgeot</option>
+                        <option value="Rattata">Rattata</option>
+                        <option value="Raticate">Raticate</option>
+                        <option value="Spearow">Spearow</option>
+                        <option value="Fearow">Fearow</option>
+                        <option value="Ekans">Ekans</option>
+                        <option value="Arbok">Arbok</option>
+                        <option value="Pikachu">Pikachu</option>
+                        <option value="Raichu">Raichu</option>
+                        <option value="Sandshrew">Sandshrew</option>
+                        <option value="Sandslash">Sandslash</option>
+                        <option value="Nidoran♀">Nidoran♀</option>
+                        <option value="Nidorina">Nidorina</option>
+                        <option value="Nidoqueen">Nidoqueen</option>
+                        <option value="Nidoran♂">Nidoran♂</option>
+                        <option value="Nidorino">Nidorino</option>
+                        <option value="Nidoking">Nidoking</option>
+                        <option value="Clefairy">Clefairy</option>
+                        <option value="Clefable">Clefable</option>
+                        <option value="Vulpix">Vulpix</option>
+                        <option value="Ninetales">Ninetales</option>
+                        <option value="Jigglypuff">Jigglypuff</option>
+                        <option value="Wigglytuff">Wigglytuff</option>
+                        <option value="Zubat">Zubat</option>
+                        <option value="Golbat">Golbat</option>
+                        <option value="Oddish">Oddish</option>
+                        <option value="Gloom">Gloom</option>
+                        <option value="Vileplume">Vileplume</option>
+                        <option value="Paras">Paras</option>
+                        <option value="Parasect">Parasect</option>
+                        <option value="Venonat">Venonat</option>
+                        <option value="Venomoth">Venomoth</option>
+                        <option value="Diglett">Diglett</option>
+                        <option value="Dugtrio">Dugtrio</option>
+                        <option value="Meowth">Meowth</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Psyduck">Psyduck</option>
+                        <option value="Golduck">Golduck</option>
+                        <option value="Mankey">Mankey</option>
+                        <option value="Primeape">Primeape</option>
+                        <option value="Growlithe">Growlithe</option>
+                        <option value="Arcanine">Arcanine</option>
+                        <option value="Poliwag">Poliwag</option>
+                        <option value="Poliwhirl">Poliwhirl</option>
+                        <option value="Poliwrath">Poliwrath</option>
+                        <option value="Abra">Abra</option>
+                        <option value="Kadabra">Kadabra</option>
+                        <option value="Alakazam">Alakazam</option>
+                        <option value="Machop">Machop</option>
+                        <option value="Machoke">Machoke</option>
+                        <option value="Machamp">Machamp</option>
+                        <option value="Bellsprout">Bellsprout</option>
+                        <option value="Weepinbell">Weepinbell</option>
+                        <option value="Victreebel">Victreebel</option>
+                        <option value="Tentacool">Tentacool</option>
+                        <option value="Tentacruel">Tentacruel</option>
+                        <option value="Geodude">Geodude</option>
+                        <option value="Graveler">Graveler</option>
+                        <option value="Golem">Golem</option>
+                        <option value="Ponyta">Ponyta</option>
+                        <option value="Rapidash">Rapidash</option>
+                        <option value="Slowpoke">Slowpoke</option>
+                        <option value="Slowbro">Slowbro</option>
+                        <option value="Magnemite">Magnemite</option>
+                        <option value="Magneton">Magneton</option>
+                        <option value="Farfetch'd">Farfetch'd</option>
+                        <option value="Doduo">Doduo</option>
+                        <option value="Dodrio">Dodrio</option>
+                        <option value="Seel">Seel</option>
+                        <option value="Dewgong">Dewgong</option>
+                        <option value="Grimer">Grimer</option>
+                        <option value="Muk">Muk</option>
+                        <option value="Shellder">Shellder</option>
+                        <option value="Cloyster">Cloyster</option>
+                        <option value="Gastly">Gastly</option>
+                        <option value="Haunter">Haunter</option>
+                        <option value="Gengar">Gengar</option>
+                        <option value="Onix">Onix</option>
+                        <option value="Drowzee">Drowzee</option>
+                        <option value="Hypno">Hypno</option>
+                        <option value="Krabby">Krabby</option>
+                        <option value="Kingler">Kingler</option>
+                        <option value="Voltorb">Voltorb</option>
+                        <option value="Electrode">Electrode</option>
+                        <option value="Exeggcute">Exeggcute</option>
+                        <option value="Exeggutor">Exeggutor</option>
+                        <option value="Cubone">Cubone</option>
+                        <option value="Marowak">Marowak</option>
+                        <option value="Hitmonlee">Hitmonlee</option>
+                        <option value="Hitmonchan">Hitmonchan</option>
+                        <option value="Lickitung">Lickitung</option>
+                        <option value="Koffing">Koffing</option>
+                        <option value="Weezing">Weezing</option>
+                        <option value="Rhyhorn">Rhyhorn</option>
+                        <option value="Rhydon">Rhydon</option>
+                        <option value="Chansey">Chansey</option>
+                        <option value="Tangela">Tangela</option>
+                        <option value="Kangaskhan">Kangaskhan</option>
+                        <option value="Horsea">Horsea</option>
+                        <option value="Seadra">Seadra</option>
+                        <option value="Goldeen">Goldeen</option>
+                        <option value="Seaking">Seaking</option>
+                        <option value="Staryu">Staryu</option>
+                        <option value="Starmie">Starmie</option>
+                        <option value="Mr. Mime">Mr. Mime</option>
+                        <option value="Scyther">Scyther</option>
+                        <option value="Jynx">Jynx</option>
+                        <option value="Electabuzz">Electabuzz</option>
+                        <option value="Magmar">Magmar</option>
+                        <option value="Pinsir">Pinsir</option>
+                        <option value="Tauros">Tauros</option>
+                        <option value="Magikarp">Magikarp</option>
+                        <option value="Gyarados">Gyarados</option>
+                        <option value="Lapras">Lapras</option>
+                        <option value="Ditto">Ditto</option>
+                        <option value="Eevee">Eevee</option>
+                        <option value="Vaporeon">Vaporeon</option>
+                        <option value="Jolteon">Jolteon</option>
+                        <option value="Flareon">Flareon</option>
+                        <option value="Porygon">Porygon</option>
+                        <option value="Omanyte">Omanyte</option>
+                        <option value="Omastar">Omastar</option>
+                        <option value="Kabuto">Kabuto</option>
+                        <option value="Kabutops">Kabutops</option>
+                        <option value="Aerodactyl">Aerodactyl</option>
+                        <option value="Snorlax">Snorlax</option>
+                        <option value="Articuno">Articuno</option>
+                        <option value="Zapdos">Zapdos</option>
+                        <option value="Moltres">Moltres</option>
+                        <option value="Dratini">Dratini</option>
+                        <option value="Dragonair">Dragonair</option>
+                        <option value="Dragonite">Dragonite</option>
+                        <option value="Mewtwo">Mewtwo</option>
+                        <option value="Mew">Mew</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Escolha o Pokémon</option>
+                        <option value="Bulbasaur">Bulbasaur</option>
+                        <option value="Ivysaur">Ivysaur</option>
+                        <option value="Venusaur">Venusaur</option>
+                        <option value="Charmander">Charmander</option>
+                        <option value="Charmeleon">Charmeleon</option>
+                        <option value="Charizard">Charizard</option>
+                        <option value="Squirtle">Squirtle</option>
+                        <option value="Wartortle">Wartortle</option>
+                        <option value="Blastoise">Blastoise</option>
+                        <option value="Caterpie">Caterpie</option>
+                        <option value="Metapod">Metapod</option>
+                        <option value="Butterfree">Butterfree</option>
+                        <option value="Weedle">Weedle</option>
+                        <option value="Kakuna">Kakuna</option>
+                        <option value="Beedrill">Beedrill</option>
+                        <option value="Pidgey">Pidgey</option>
+                        <option value="Pidgeotto">Pidgeotto</option>
+                        <option value="Pidgeot">Pidgeot</option>
+                        <option value="Rattata">Rattata</option>
+                        <option value="Raticate">Raticate</option>
+                        <option value="Spearow">Spearow</option>
+                        <option value="Fearow">Fearow</option>
+                        <option value="Ekans">Ekans</option>
+                        <option value="Arbok">Arbok</option>
+                        <option value="Pikachu">Pikachu</option>
+                        <option value="Raichu">Raichu</option>
+                        <option value="Sandshrew">Sandshrew</option>
+                        <option value="Sandslash">Sandslash</option>
+                        <option value="Nidoran♀">Nidoran♀</option>
+                        <option value="Nidorina">Nidorina</option>
+                        <option value="Nidoqueen">Nidoqueen</option>
+                        <option value="Nidoran♂">Nidoran♂</option>
+                        <option value="Nidorino">Nidorino</option>
+                        <option value="Nidoking">Nidoking</option>
+                        <option value="Clefairy">Clefairy</option>
+                        <option value="Clefable">Clefable</option>
+                        <option value="Vulpix">Vulpix</option>
+                        <option value="Ninetales">Ninetales</option>
+                        <option value="Jigglypuff">Jigglypuff</option>
+                        <option value="Wigglytuff">Wigglytuff</option>
+                        <option value="Zubat">Zubat</option>
+                        <option value="Golbat">Golbat</option>
+                        <option value="Oddish">Oddish</option>
+                        <option value="Gloom">Gloom</option>
+                        <option value="Vileplume">Vileplume</option>
+                        <option value="Paras">Paras</option>
+                        <option value="Parasect">Parasect</option>
+                        <option value="Venonat">Venonat</option>
+                        <option value="Venomoth">Venomoth</option>
+                        <option value="Diglett">Diglett</option>
+                        <option value="Dugtrio">Dugtrio</option>
+                        <option value="Meowth">Meowth</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Psyduck">Psyduck</option>
+                        <option value="Golduck">Golduck</option>
+                        <option value="Mankey">Mankey</option>
+                        <option value="Primeape">Primeape</option>
+                        <option value="Growlithe">Growlithe</option>
+                        <option value="Arcanine">Arcanine</option>
+                        <option value="Poliwag">Poliwag</option>
+                        <option value="Poliwhirl">Poliwhirl</option>
+                        <option value="Poliwrath">Poliwrath</option>
+                        <option value="Abra">Abra</option>
+                        <option value="Kadabra">Kadabra</option>
+                        <option value="Alakazam">Alakazam</option>
+                        <option value="Machop">Machop</option>
+                        <option value="Machoke">Machoke</option>
+                        <option value="Machamp">Machamp</option>
+                        <option value="Bellsprout">Bellsprout</option>
+                        <option value="Weepinbell">Weepinbell</option>
+                        <option value="Victreebel">Victreebel</option>
+                        <option value="Tentacool">Tentacool</option>
+                        <option value="Tentacruel">Tentacruel</option>
+                        <option value="Geodude">Geodude</option>
+                        <option value="Graveler">Graveler</option>
+                        <option value="Golem">Golem</option>
+                        <option value="Ponyta">Ponyta</option>
+                        <option value="Rapidash">Rapidash</option>
+                        <option value="Slowpoke">Slowpoke</option>
+                        <option value="Slowbro">Slowbro</option>
+                        <option value="Magnemite">Magnemite</option>
+                        <option value="Magneton">Magneton</option>
+                        <option value="Farfetch'd">Farfetch'd</option>
+                        <option value="Doduo">Doduo</option>
+                        <option value="Dodrio">Dodrio</option>
+                        <option value="Seel">Seel</option>
+                        <option value="Dewgong">Dewgong</option>
+                        <option value="Grimer">Grimer</option>
+                        <option value="Muk">Muk</option>
+                        <option value="Shellder">Shellder</option>
+                        <option value="Cloyster">Cloyster</option>
+                        <option value="Gastly">Gastly</option>
+                        <option value="Haunter">Haunter</option>
+                        <option value="Gengar">Gengar</option>
+                        <option value="Onix">Onix</option>
+                        <option value="Drowzee">Drowzee</option>
+                        <option value="Hypno">Hypno</option>
+                        <option value="Krabby">Krabby</option>
+                        <option value="Kingler">Kingler</option>
+                        <option value="Voltorb">Voltorb</option>
+                        <option value="Electrode">Electrode</option>
+                        <option value="Exeggcute">Exeggcute</option>
+                        <option value="Exeggutor">Exeggutor</option>
+                        <option value="Cubone">Cubone</option>
+                        <option value="Marowak">Marowak</option>
+                        <option value="Hitmonlee">Hitmonlee</option>
+                        <option value="Hitmonchan">Hitmonchan</option>
+                        <option value="Lickitung">Lickitung</option>
+                        <option value="Koffing">Koffing</option>
+                        <option value="Weezing">Weezing</option>
+                        <option value="Rhyhorn">Rhyhorn</option>
+                        <option value="Rhydon">Rhydon</option>
+                        <option value="Chansey">Chansey</option>
+                        <option value="Tangela">Tangela</option>
+                        <option value="Kangaskhan">Kangaskhan</option>
+                        <option value="Horsea">Horsea</option>
+                        <option value="Seadra">Seadra</option>
+                        <option value="Goldeen">Goldeen</option>
+                        <option value="Seaking">Seaking</option>
+                        <option value="Staryu">Staryu</option>
+                        <option value="Starmie">Starmie</option>
+                        <option value="Mr. Mime">Mr. Mime</option>
+                        <option value="Scyther">Scyther</option>
+                        <option value="Jynx">Jynx</option>
+                        <option value="Electabuzz">Electabuzz</option>
+                        <option value="Magmar">Magmar</option>
+                        <option value="Pinsir">Pinsir</option>
+                        <option value="Tauros">Tauros</option>
+                        <option value="Magikarp">Magikarp</option>
+                        <option value="Gyarados">Gyarados</option>
+                        <option value="Lapras">Lapras</option>
+                        <option value="Ditto">Ditto</option>
+                        <option value="Eevee">Eevee</option>
+                        <option value="Vaporeon">Vaporeon</option>
+                        <option value="Jolteon">Jolteon</option>
+                        <option value="Flareon">Flareon</option>
+                        <option value="Porygon">Porygon</option>
+                        <option value="Omanyte">Omanyte</option>
+                        <option value="Omastar">Omastar</option>
+                        <option value="Kabuto">Kabuto</option>
+                        <option value="Kabutops">Kabutops</option>
+                        <option value="Aerodactyl">Aerodactyl</option>
+                        <option value="Snorlax">Snorlax</option>
+                        <option value="Articuno">Articuno</option>
+                        <option value="Zapdos">Zapdos</option>
+                        <option value="Moltres">Moltres</option>
+                        <option value="Dratini">Dratini</option>
+                        <option value="Dragonair">Dragonair</option>
+                        <option value="Dragonite">Dragonite</option>
+                        <option value="Mewtwo">Mewtwo</option>
+                        <option value="Mew">Mew</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Escolha o Pokémon</option>
+                        <option value="Bulbasaur">Bulbasaur</option>
+                        <option value="Ivysaur">Ivysaur</option>
+                        <option value="Venusaur">Venusaur</option>
+                        <option value="Charmander">Charmander</option>
+                        <option value="Charmeleon">Charmeleon</option>
+                        <option value="Charizard">Charizard</option>
+                        <option value="Squirtle">Squirtle</option>
+                        <option value="Wartortle">Wartortle</option>
+                        <option value="Blastoise">Blastoise</option>
+                        <option value="Caterpie">Caterpie</option>
+                        <option value="Metapod">Metapod</option>
+                        <option value="Butterfree">Butterfree</option>
+                        <option value="Weedle">Weedle</option>
+                        <option value="Kakuna">Kakuna</option>
+                        <option value="Beedrill">Beedrill</option>
+                        <option value="Pidgey">Pidgey</option>
+                        <option value="Pidgeotto">Pidgeotto</option>
+                        <option value="Pidgeot">Pidgeot</option>
+                        <option value="Rattata">Rattata</option>
+                        <option value="Raticate">Raticate</option>
+                        <option value="Spearow">Spearow</option>
+                        <option value="Fearow">Fearow</option>
+                        <option value="Ekans">Ekans</option>
+                        <option value="Arbok">Arbok</option>
+                        <option value="Pikachu">Pikachu</option>
+                        <option value="Raichu">Raichu</option>
+                        <option value="Sandshrew">Sandshrew</option>
+                        <option value="Sandslash">Sandslash</option>
+                        <option value="Nidoran♀">Nidoran♀</option>
+                        <option value="Nidorina">Nidorina</option>
+                        <option value="Nidoqueen">Nidoqueen</option>
+                        <option value="Nidoran♂">Nidoran♂</option>
+                        <option value="Nidorino">Nidorino</option>
+                        <option value="Nidoking">Nidoking</option>
+                        <option value="Clefairy">Clefairy</option>
+                        <option value="Clefable">Clefable</option>
+                        <option value="Vulpix">Vulpix</option>
+                        <option value="Ninetales">Ninetales</option>
+                        <option value="Jigglypuff">Jigglypuff</option>
+                        <option value="Wigglytuff">Wigglytuff</option>
+                        <option value="Zubat">Zubat</option>
+                        <option value="Golbat">Golbat</option>
+                        <option value="Oddish">Oddish</option>
+                        <option value="Gloom">Gloom</option>
+                        <option value="Vileplume">Vileplume</option>
+                        <option value="Paras">Paras</option>
+                        <option value="Parasect">Parasect</option>
+                        <option value="Venonat">Venonat</option>
+                        <option value="Venomoth">Venomoth</option>
+                        <option value="Diglett">Diglett</option>
+                        <option value="Dugtrio">Dugtrio</option>
+                        <option value="Meowth">Meowth</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Psyduck">Psyduck</option>
+                        <option value="Golduck">Golduck</option>
+                        <option value="Mankey">Mankey</option>
+                        <option value="Primeape">Primeape</option>
+                        <option value="Growlithe">Growlithe</option>
+                        <option value="Arcanine">Arcanine</option>
+                        <option value="Poliwag">Poliwag</option>
+                        <option value="Poliwhirl">Poliwhirl</option>
+                        <option value="Poliwrath">Poliwrath</option>
+                        <option value="Abra">Abra</option>
+                        <option value="Kadabra">Kadabra</option>
+                        <option value="Alakazam">Alakazam</option>
+                        <option value="Machop">Machop</option>
+                        <option value="Machoke">Machoke</option>
+                        <option value="Machamp">Machamp</option>
+                        <option value="Bellsprout">Bellsprout</option>
+                        <option value="Weepinbell">Weepinbell</option>
+                        <option value="Victreebel">Victreebel</option>
+                        <option value="Tentacool">Tentacool</option>
+                        <option value="Tentacruel">Tentacruel</option>
+                        <option value="Geodude">Geodude</option>
+                        <option value="Graveler">Graveler</option>
+                        <option value="Golem">Golem</option>
+                        <option value="Ponyta">Ponyta</option>
+                        <option value="Rapidash">Rapidash</option>
+                        <option value="Slowpoke">Slowpoke</option>
+                        <option value="Slowbro">Slowbro</option>
+                        <option value="Magnemite">Magnemite</option>
+                        <option value="Magneton">Magneton</option>
+                        <option value="Farfetch'd">Farfetch'd</option>
+                        <option value="Doduo">Doduo</option>
+                        <option value="Dodrio">Dodrio</option>
+                        <option value="Seel">Seel</option>
+                        <option value="Dewgong">Dewgong</option>
+                        <option value="Grimer">Grimer</option>
+                        <option value="Muk">Muk</option>
+                        <option value="Shellder">Shellder</option>
+                        <option value="Cloyster">Cloyster</option>
+                        <option value="Gastly">Gastly</option>
+                        <option value="Haunter">Haunter</option>
+                        <option value="Gengar">Gengar</option>
+                        <option value="Onix">Onix</option>
+                        <option value="Drowzee">Drowzee</option>
+                        <option value="Hypno">Hypno</option>
+                        <option value="Krabby">Krabby</option>
+                        <option value="Kingler">Kingler</option>
+                        <option value="Voltorb">Voltorb</option>
+                        <option value="Electrode">Electrode</option>
+                        <option value="Exeggcute">Exeggcute</option>
+                        <option value="Exeggutor">Exeggutor</option>
+                        <option value="Cubone">Cubone</option>
+                        <option value="Marowak">Marowak</option>
+                        <option value="Hitmonlee">Hitmonlee</option>
+                        <option value="Hitmonchan">Hitmonchan</option>
+                        <option value="Lickitung">Lickitung</option>
+                        <option value="Koffing">Koffing</option>
+                        <option value="Weezing">Weezing</option>
+                        <option value="Rhyhorn">Rhyhorn</option>
+                        <option value="Rhydon">Rhydon</option>
+                        <option value="Chansey">Chansey</option>
+                        <option value="Tangela">Tangela</option>
+                        <option value="Kangaskhan">Kangaskhan</option>
+                        <option value="Horsea">Horsea</option>
+                        <option value="Seadra">Seadra</option>
+                        <option value="Goldeen">Goldeen</option>
+                        <option value="Seaking">Seaking</option>
+                        <option value="Staryu">Staryu</option>
+                        <option value="Starmie">Starmie</option>
+                        <option value="Mr. Mime">Mr. Mime</option>
+                        <option value="Scyther">Scyther</option>
+                        <option value="Jynx">Jynx</option>
+                        <option value="Electabuzz">Electabuzz</option>
+                        <option value="Magmar">Magmar</option>
+                        <option value="Pinsir">Pinsir</option>
+                        <option value="Tauros">Tauros</option>
+                        <option value="Magikarp">Magikarp</option>
+                        <option value="Gyarados">Gyarados</option>
+                        <option value="Lapras">Lapras</option>
+                        <option value="Ditto">Ditto</option>
+                        <option value="Eevee">Eevee</option>
+                        <option value="Vaporeon">Vaporeon</option>
+                        <option value="Jolteon">Jolteon</option>
+                        <option value="Flareon">Flareon</option>
+                        <option value="Porygon">Porygon</option>
+                        <option value="Omanyte">Omanyte</option>
+                        <option value="Omastar">Omastar</option>
+                        <option value="Kabuto">Kabuto</option>
+                        <option value="Kabutops">Kabutops</option>
+                        <option value="Aerodactyl">Aerodactyl</option>
+                        <option value="Snorlax">Snorlax</option>
+                        <option value="Articuno">Articuno</option>
+                        <option value="Zapdos">Zapdos</option>
+                        <option value="Moltres">Moltres</option>
+                        <option value="Dratini">Dratini</option>
+                        <option value="Dragonair">Dragonair</option>
+                        <option value="Dragonite">Dragonite</option>
+                        <option value="Mewtwo">Mewtwo</option>
+                        <option value="Mew">Mew</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Escolha o Pokémon</option>
+                        <option value="Bulbasaur">Bulbasaur</option>
+                        <option value="Ivysaur">Ivysaur</option>
+                        <option value="Venusaur">Venusaur</option>
+                        <option value="Charmander">Charmander</option>
+                        <option value="Charmeleon">Charmeleon</option>
+                        <option value="Charizard">Charizard</option>
+                        <option value="Squirtle">Squirtle</option>
+                        <option value="Wartortle">Wartortle</option>
+                        <option value="Blastoise">Blastoise</option>
+                        <option value="Caterpie">Caterpie</option>
+                        <option value="Metapod">Metapod</option>
+                        <option value="Butterfree">Butterfree</option>
+                        <option value="Weedle">Weedle</option>
+                        <option value="Kakuna">Kakuna</option>
+                        <option value="Beedrill">Beedrill</option>
+                        <option value="Pidgey">Pidgey</option>
+                        <option value="Pidgeotto">Pidgeotto</option>
+                        <option value="Pidgeot">Pidgeot</option>
+                        <option value="Rattata">Rattata</option>
+                        <option value="Raticate">Raticate</option>
+                        <option value="Spearow">Spearow</option>
+                        <option value="Fearow">Fearow</option>
+                        <option value="Ekans">Ekans</option>
+                        <option value="Arbok">Arbok</option>
+                        <option value="Pikachu">Pikachu</option>
+                        <option value="Raichu">Raichu</option>
+                        <option value="Sandshrew">Sandshrew</option>
+                        <option value="Sandslash">Sandslash</option>
+                        <option value="Nidoran♀">Nidoran♀</option>
+                        <option value="Nidorina">Nidorina</option>
+                        <option value="Nidoqueen">Nidoqueen</option>
+                        <option value="Nidoran♂">Nidoran♂</option>
+                        <option value="Nidorino">Nidorino</option>
+                        <option value="Nidoking">Nidoking</option>
+                        <option value="Clefairy">Clefairy</option>
+                        <option value="Clefable">Clefable</option>
+                        <option value="Vulpix">Vulpix</option>
+                        <option value="Ninetales">Ninetales</option>
+                        <option value="Jigglypuff">Jigglypuff</option>
+                        <option value="Wigglytuff">Wigglytuff</option>
+                        <option value="Zubat">Zubat</option>
+                        <option value="Golbat">Golbat</option>
+                        <option value="Oddish">Oddish</option>
+                        <option value="Gloom">Gloom</option>
+                        <option value="Vileplume">Vileplume</option>
+                        <option value="Paras">Paras</option>
+                        <option value="Parasect">Parasect</option>
+                        <option value="Venonat">Venonat</option>
+                        <option value="Venomoth">Venomoth</option>
+                        <option value="Diglett">Diglett</option>
+                        <option value="Dugtrio">Dugtrio</option>
+                        <option value="Meowth">Meowth</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Psyduck">Psyduck</option>
+                        <option value="Golduck">Golduck</option>
+                        <option value="Mankey">Mankey</option>
+                        <option value="Primeape">Primeape</option>
+                        <option value="Growlithe">Growlithe</option>
+                        <option value="Arcanine">Arcanine</option>
+                        <option value="Poliwag">Poliwag</option>
+                        <option value="Poliwhirl">Poliwhirl</option>
+                        <option value="Poliwrath">Poliwrath</option>
+                        <option value="Abra">Abra</option>
+                        <option value="Kadabra">Kadabra</option>
+                        <option value="Alakazam">Alakazam</option>
+                        <option value="Machop">Machop</option>
+                        <option value="Machoke">Machoke</option>
+                        <option value="Machamp">Machamp</option>
+                        <option value="Bellsprout">Bellsprout</option>
+                        <option value="Weepinbell">Weepinbell</option>
+                        <option value="Victreebel">Victreebel</option>
+                        <option value="Tentacool">Tentacool</option>
+                        <option value="Tentacruel">Tentacruel</option>
+                        <option value="Geodude">Geodude</option>
+                        <option value="Graveler">Graveler</option>
+                        <option value="Golem">Golem</option>
+                        <option value="Ponyta">Ponyta</option>
+                        <option value="Rapidash">Rapidash</option>
+                        <option value="Slowpoke">Slowpoke</option>
+                        <option value="Slowbro">Slowbro</option>
+                        <option value="Magnemite">Magnemite</option>
+                        <option value="Magneton">Magneton</option>
+                        <option value="Farfetch'd">Farfetch'd</option>
+                        <option value="Doduo">Doduo</option>
+                        <option value="Dodrio">Dodrio</option>
+                        <option value="Seel">Seel</option>
+                        <option value="Dewgong">Dewgong</option>
+                        <option value="Grimer">Grimer</option>
+                        <option value="Muk">Muk</option>
+                        <option value="Shellder">Shellder</option>
+                        <option value="Cloyster">Cloyster</option>
+                        <option value="Gastly">Gastly</option>
+                        <option value="Haunter">Haunter</option>
+                        <option value="Gengar">Gengar</option>
+                        <option value="Onix">Onix</option>
+                        <option value="Drowzee">Drowzee</option>
+                        <option value="Hypno">Hypno</option>
+                        <option value="Krabby">Krabby</option>
+                        <option value="Kingler">Kingler</option>
+                        <option value="Voltorb">Voltorb</option>
+                        <option value="Electrode">Electrode</option>
+                        <option value="Exeggcute">Exeggcute</option>
+                        <option value="Exeggutor">Exeggutor</option>
+                        <option value="Cubone">Cubone</option>
+                        <option value="Marowak">Marowak</option>
+                        <option value="Hitmonlee">Hitmonlee</option>
+                        <option value="Hitmonchan">Hitmonchan</option>
+                        <option value="Lickitung">Lickitung</option>
+                        <option value="Koffing">Koffing</option>
+                        <option value="Weezing">Weezing</option>
+                        <option value="Rhyhorn">Rhyhorn</option>
+                        <option value="Rhydon">Rhydon</option>
+                        <option value="Chansey">Chansey</option>
+                        <option value="Tangela">Tangela</option>
+                        <option value="Kangaskhan">Kangaskhan</option>
+                        <option value="Horsea">Horsea</option>
+                        <option value="Seadra">Seadra</option>
+                        <option value="Goldeen">Goldeen</option>
+                        <option value="Seaking">Seaking</option>
+                        <option value="Staryu">Staryu</option>
+                        <option value="Starmie">Starmie</option>
+                        <option value="Mr. Mime">Mr. Mime</option>
+                        <option value="Scyther">Scyther</option>
+                        <option value="Jynx">Jynx</option>
+                        <option value="Electabuzz">Electabuzz</option>
+                        <option value="Magmar">Magmar</option>
+                        <option value="Pinsir">Pinsir</option>
+                        <option value="Tauros">Tauros</option>
+                        <option value="Magikarp">Magikarp</option>
+                        <option value="Gyarados">Gyarados</option>
+                        <option value="Lapras">Lapras</option>
+                        <option value="Ditto">Ditto</option>
+                        <option value="Eevee">Eevee</option>
+                        <option value="Vaporeon">Vaporeon</option>
+                        <option value="Jolteon">Jolteon</option>
+                        <option value="Flareon">Flareon</option>
+                        <option value="Porygon">Porygon</option>
+                        <option value="Omanyte">Omanyte</option>
+                        <option value="Omastar">Omastar</option>
+                        <option value="Kabuto">Kabuto</option>
+                        <option value="Kabutops">Kabutops</option>
+                        <option value="Aerodactyl">Aerodactyl</option>
+                        <option value="Snorlax">Snorlax</option>
+                        <option value="Articuno">Articuno</option>
+                        <option value="Zapdos">Zapdos</option>
+                        <option value="Moltres">Moltres</option>
+                        <option value="Dratini">Dratini</option>
+                        <option value="Dragonair">Dragonair</option>
+                        <option value="Dragonite">Dragonite</option>
+                        <option value="Mewtwo">Mewtwo</option>
+                        <option value="Mew">Mew</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Escolha o Pokémon</option>
+                        <option value="Bulbasaur">Bulbasaur</option>
+                        <option value="Ivysaur">Ivysaur</option>
+                        <option value="Venusaur">Venusaur</option>
+                        <option value="Charmander">Charmander</option>
+                        <option value="Charmeleon">Charmeleon</option>
+                        <option value="Charizard">Charizard</option>
+                        <option value="Squirtle">Squirtle</option>
+                        <option value="Wartortle">Wartortle</option>
+                        <option value="Blastoise">Blastoise</option>
+                        <option value="Caterpie">Caterpie</option>
+                        <option value="Metapod">Metapod</option>
+                        <option value="Butterfree">Butterfree</option>
+                        <option value="Weedle">Weedle</option>
+                        <option value="Kakuna">Kakuna</option>
+                        <option value="Beedrill">Beedrill</option>
+                        <option value="Pidgey">Pidgey</option>
+                        <option value="Pidgeotto">Pidgeotto</option>
+                        <option value="Pidgeot">Pidgeot</option>
+                        <option value="Rattata">Rattata</option>
+                        <option value="Raticate">Raticate</option>
+                        <option value="Spearow">Spearow</option>
+                        <option value="Fearow">Fearow</option>
+                        <option value="Ekans">Ekans</option>
+                        <option value="Arbok">Arbok</option>
+                        <option value="Pikachu">Pikachu</option>
+                        <option value="Raichu">Raichu</option>
+                        <option value="Sandshrew">Sandshrew</option>
+                        <option value="Sandslash">Sandslash</option>
+                        <option value="Nidoran♀">Nidoran♀</option>
+                        <option value="Nidorina">Nidorina</option>
+                        <option value="Nidoqueen">Nidoqueen</option>
+                        <option value="Nidoran♂">Nidoran♂</option>
+                        <option value="Nidorino">Nidorino</option>
+                        <option value="Nidoking">Nidoking</option>
+                        <option value="Clefairy">Clefairy</option>
+                        <option value="Clefable">Clefable</option>
+                        <option value="Vulpix">Vulpix</option>
+                        <option value="Ninetales">Ninetales</option>
+                        <option value="Jigglypuff">Jigglypuff</option>
+                        <option value="Wigglytuff">Wigglytuff</option>
+                        <option value="Zubat">Zubat</option>
+                        <option value="Golbat">Golbat</option>
+                        <option value="Oddish">Oddish</option>
+                        <option value="Gloom">Gloom</option>
+                        <option value="Vileplume">Vileplume</option>
+                        <option value="Paras">Paras</option>
+                        <option value="Parasect">Parasect</option>
+                        <option value="Venonat">Venonat</option>
+                        <option value="Venomoth">Venomoth</option>
+                        <option value="Diglett">Diglett</option>
+                        <option value="Dugtrio">Dugtrio</option>
+                        <option value="Meowth">Meowth</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Psyduck">Psyduck</option>
+                        <option value="Golduck">Golduck</option>
+                        <option value="Mankey">Mankey</option>
+                        <option value="Primeape">Primeape</option>
+                        <option value="Growlithe">Growlithe</option>
+                        <option value="Arcanine">Arcanine</option>
+                        <option value="Poliwag">Poliwag</option>
+                        <option value="Poliwhirl">Poliwhirl</option>
+                        <option value="Poliwrath">Poliwrath</option>
+                        <option value="Abra">Abra</option>
+                        <option value="Kadabra">Kadabra</option>
+                        <option value="Alakazam">Alakazam</option>
+                        <option value="Machop">Machop</option>
+                        <option value="Machoke">Machoke</option>
+                        <option value="Machamp">Machamp</option>
+                        <option value="Bellsprout">Bellsprout</option>
+                        <option value="Weepinbell">Weepinbell</option>
+                        <option value="Victreebel">Victreebel</option>
+                        <option value="Tentacool">Tentacool</option>
+                        <option value="Tentacruel">Tentacruel</option>
+                        <option value="Geodude">Geodude</option>
+                        <option value="Graveler">Graveler</option>
+                        <option value="Golem">Golem</option>
+                        <option value="Ponyta">Ponyta</option>
+                        <option value="Rapidash">Rapidash</option>
+                        <option value="Slowpoke">Slowpoke</option>
+                        <option value="Slowbro">Slowbro</option>
+                        <option value="Magnemite">Magnemite</option>
+                        <option value="Magneton">Magneton</option>
+                        <option value="Farfetch'd">Farfetch'd</option>
+                        <option value="Doduo">Doduo</option>
+                        <option value="Dodrio">Dodrio</option>
+                        <option value="Seel">Seel</option>
+                        <option value="Dewgong">Dewgong</option>
+                        <option value="Grimer">Grimer</option>
+                        <option value="Muk">Muk</option>
+                        <option value="Shellder">Shellder</option>
+                        <option value="Cloyster">Cloyster</option>
+                        <option value="Gastly">Gastly</option>
+                        <option value="Haunter">Haunter</option>
+                        <option value="Gengar">Gengar</option>
+                        <option value="Onix">Onix</option>
+                        <option value="Drowzee">Drowzee</option>
+                        <option value="Hypno">Hypno</option>
+                        <option value="Krabby">Krabby</option>
+                        <option value="Kingler">Kingler</option>
+                        <option value="Voltorb">Voltorb</option>
+                        <option value="Electrode">Electrode</option>
+                        <option value="Exeggcute">Exeggcute</option>
+                        <option value="Exeggutor">Exeggutor</option>
+                        <option value="Cubone">Cubone</option>
+                        <option value="Marowak">Marowak</option>
+                        <option value="Hitmonlee">Hitmonlee</option>
+                        <option value="Hitmonchan">Hitmonchan</option>
+                        <option value="Lickitung">Lickitung</option>
+                        <option value="Koffing">Koffing</option>
+                        <option value="Weezing">Weezing</option>
+                        <option value="Rhyhorn">Rhyhorn</option>
+                        <option value="Rhydon">Rhydon</option>
+                        <option value="Chansey">Chansey</option>
+                        <option value="Tangela">Tangela</option>
+                        <option value="Kangaskhan">Kangaskhan</option>
+                        <option value="Horsea">Horsea</option>
+                        <option value="Seadra">Seadra</option>
+                        <option value="Goldeen">Goldeen</option>
+                        <option value="Seaking">Seaking</option>
+                        <option value="Staryu">Staryu</option>
+                        <option value="Starmie">Starmie</option>
+                        <option value="Mr. Mime">Mr. Mime</option>
+                        <option value="Scyther">Scyther</option>
+                        <option value="Jynx">Jynx</option>
+                        <option value="Electabuzz">Electabuzz</option>
+                        <option value="Magmar">Magmar</option>
+                        <option value="Pinsir">Pinsir</option>
+                        <option value="Tauros">Tauros</option>
+                        <option value="Magikarp">Magikarp</option>
+                        <option value="Gyarados">Gyarados</option>
+                        <option value="Lapras">Lapras</option>
+                        <option value="Ditto">Ditto</option>
+                        <option value="Eevee">Eevee</option>
+                        <option value="Vaporeon">Vaporeon</option>
+                        <option value="Jolteon">Jolteon</option>
+                        <option value="Flareon">Flareon</option>
+                        <option value="Porygon">Porygon</option>
+                        <option value="Omanyte">Omanyte</option>
+                        <option value="Omastar">Omastar</option>
+                        <option value="Kabuto">Kabuto</option>
+                        <option value="Kabutops">Kabutops</option>
+                        <option value="Aerodactyl">Aerodactyl</option>
+                        <option value="Snorlax">Snorlax</option>
+                        <option value="Articuno">Articuno</option>
+                        <option value="Zapdos">Zapdos</option>
+                        <option value="Moltres">Moltres</option>
+                        <option value="Dratini">Dratini</option>
+                        <option value="Dragonair">Dragonair</option>
+                        <option value="Dragonite">Dragonite</option>
+                        <option value="Mewtwo">Mewtwo</option>
+                        <option value="Mew">Mew</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <img src="fotos eeveezone/3_card_treinador/vaporeon.png" alt="vaporeon" class="vaporeon">
+    </main>
+    <footer>
+        <section id="app">
+            <div id="rodape1">
+                <a href="">
+                    <h3>The Pokemon Company</h3>
+                </a>
+                <ul>
+                    <li><a href="">
+                            <p>Noticias</p>
+                        </a></li>
+                    <li><a href="">
+                            <p>Guia parental</p>
+                        </a></li>
+                    <li><a href="">
+                            <p>Atendimento ao consumidor</p>
+                        </a></li>
+                    <li><a href="">
+                            <p>Saiba mais sobre nos</p>
+                        </a></li>
+                </ul>
+            </div>
+            <div id="rodape2">
+                <a href=""><img src="fotos eeveezone/3_card_treinador/email_azul.png" alt="email"></a>
+                <a href=""><img src="fotos eeveezone/3_card_treinador/instagram_azul.png" alt="instagram"></a>
+                <a href=""><img src="fotos eeveezone/3_card_treinador/pinterest_azul.png" alt="pinterest"></a>
+                <a href=""><img src="fotos eeveezone/3_card_treinador/youtube_azul.png" alt="youtube"></a>
+            </div>
+            <div id="rodape3">
+                <ul>
+                    <li>
+                        <a href="">
+                            <p>Termos de uso e informações</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <p>Privacidade e segurança</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <p>Politicas e informações legais</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <p>História</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div id="rodapefinal">
+            <a href="">
+                <p>©2025 Pokémon. ©1995 - 2025 Nintendo/Creatures Inc./GAME FREAK inc. TM, ®Nintendo.</p>
+            </a>
+        </div>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
